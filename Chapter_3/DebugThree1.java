@@ -20,7 +20,7 @@ public class DebugThree1 {
       
          final double RATE = 0.15;
          double tip = check;
-         double bill = tip / RATE;
+         double bill = tip * RATE;
          System.out.println("The tip should be at least $" + bill);
    }
 }
