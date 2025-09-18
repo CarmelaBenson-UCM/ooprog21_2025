@@ -1,7 +1,7 @@
 public class FixDebugOne { //FixDebug One --> FixDebugOne
 
 /* This program displays a greeting */
-    public static void Main(String[] args) { //Main --> main ; String args --> String[] args
+    public static void Main(String[] args) { //Main --> main ; (String args) --> (String[] args)
         System.out.println("Hello World!");   //Systm --> System ; ("Hello Wold!") --> ("Hello Wold!");
     }
 }  //no '}' --> put '}'
