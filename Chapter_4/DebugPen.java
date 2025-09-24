@@ -19,10 +19,4 @@ public class DebugPen {
    public String getPoint() {
       return point;
    }
-   
-   public static void main(String[] args) {
-      DebugPen dp = new DebugPen();
-      System.out.println("Color: " + dp.getColor() + " ; Point: " + dp.getPoint());
-      
-   }
 }
