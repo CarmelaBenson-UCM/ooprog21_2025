@@ -10,14 +10,14 @@ public class DebugFour3 {
       int w, l, h;
       
       System.out.print("Enter width of box >> ");
-      int w = input.nextInteger();      
+      w = input.nextInt();      
       System.out.print("Enter length of box >> ");
-      int l = input.nextDouble();  
+      l = input.nextInt();  
       System.out.print("Enter height of box >> ");
-      int h = input.nextInt();
+      h = input.nextInt();
       
-      DebugBox box1 = new FixDebugBox();
-      DebugBox box1 = new FixDebugBox(w, l, h);
+      DebugBox box1 = new DebugBox();
+      DebugBox box2 = new DebugBox(w, l, h);
       
       System.out.println("The dimensions of the first box are");
       box1.showData();
@@ -26,7 +26,7 @@ public class DebugFour3 {
       System.out.println("The dimensions of the second box are");
       box2.showData();
       System.out.print(" The volume of the second box is ");
-      box2.showVolume();
+      showVolume(box2);
    }
    public static void showVolume(DebugBox aBox) {
       double vol = aBox.getVolume();
